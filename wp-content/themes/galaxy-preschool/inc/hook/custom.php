@@ -107,7 +107,7 @@ if ( ! function_exists( 'galaxy_preschool_footer_section' ) ) :
                 $copyright_footer = wp_kses_data( $copyright_footer );
             }
             // Powered by content.
-            $powered_by_text = sprintf( __( ' Website & Portal by %s', 'galaxy-preschool' ), '<a target="_blank" rel="designer" href="'. esc_url( 'https://digitalschool.com.ng/' ) .'">Wizzyhub Technology Ltd (Owners of Digital School Software) </a>' );
+            $powered_by_text = sprintf( __( ' Website & Portal by %s', 'galaxy-preschool' ), '<a target="_blank" rel="designer" href="'. esc_url( 'https://coe-technology.vercel.app/' ) .'">COE Technology </a>' );
         ?>
         <div class="wrapper">
             <span class="copy-right"><?php echo esc_html($copyright_footer);?><?php echo $powered_by_text;?></span>
